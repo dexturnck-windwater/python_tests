@@ -1,0 +1,232 @@
+# =========================
+# Question 1 — Debugging Data Types
+# =========================
+
+"""
+A student is making a shopping program for school supplies,
+but the code has an error.
+
+Tasks:
+1. Find the error
+2. Fix the code
+3. Explain why the error happens
+"""
+
+print("=== Student Shopping Program ===")
+
+student_name = "Luna"
+grade = 8
+
+book_price = 15000
+pen_price = 5000
+notebook_price = "12000"
+
+total = 0
+
+print("Calculating total price...")
+
+total = total + book_price
+print("Added book")
+
+total = total + pen_price
+print("Added pen")
+
+print("Adding notebook...")
+total = total + notebook_price
+
+print("Shopping complete")
+print("Student:", student_name)
+print("Grade:", grade)
+print("Total price:", total)
+
+if total > 30000:
+    print("You spent a lot!")
+else:
+    print("Good budgeting!")
+
+
+# =========================
+# Question 2 — Input, Lists, and Loops
+# =========================
+
+"""
+Write a program that:
+
+1. Asks the user to input 10 words
+2. Stores all the words inside a list
+3. Asks the user how many words they want to display
+4. Prints the words from the list based on that number
+
+Rules:
+- You must use a loop to input the words
+- You must use another loop to print the words
+- Store the words in a list
+
+Theory Question:
+After storing 10 words in a list called words,
+can you use:
+
+words[10]
+
+to print the 10th word?
+
+Explain your answer.
+"""
+
+
+
+# =========================
+# Question 3 — Shop Status Switch
+# =========================
+
+"""
+A shop owner wants a simple program to change the shop
+status every morning and night.
+
+- If the shop is currently "open",
+  change it to "close"
+
+- If the shop is currently "close",
+  change it to "open"
+
+Theory Question:
+Should this program use:
+- two if statements
+- or if with elif
+
+Explain your answer.
+"""
+
+shop = input("Enter shop status (open/close): ")
+
+# write your code here
+
+print("New shop status:", shop)
+
+
+
+# =========================
+# Question 4 — Function Debugging
+# =========================
+
+"""
+A student is making a score calculator program,
+but the code has an error.
+
+Tasks:
+1. Find the error
+2. Fix the code
+3. Explain why the error happens
+"""
+
+name = "Alicia"
+score1 = 80
+score2 = 90
+bonus = "5"
+
+def calculate_total(a, b, extra):
+    total = a + b + extra
+    return total
+
+def show_result(student, total_score):
+    print("Student:", student)
+    print("Total Score:", total_score)
+
+print("=== Student Result System ===")
+
+total = calculate_total(score1, score2, bonus)
+
+if total >= 170:
+    print("Excellent")
+else:
+    print("Good")
+
+show_result(name, total)
+
+
+
+# =========================
+# Question 5 — Choosing the Correct Function
+# =========================
+
+"""
+Tasks:
+1. Replace function_name with the correct function name
+2. Explain why you chose that function
+3. Explain why the other function is not appropriate
+"""
+
+def add1(a, b):
+    return a + b
+
+def add2(a, b):
+    print(a + b)
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+result = function_name(num1, num2)
+
+print("result =", result)
+
+
+
+# =========================
+# Question 6 — Turtle Archery Game
+# =========================
+
+"""
+A student is creating a turtle archery game.
+
+The game stores all player information
+inside a list containing one dictionary.
+
+Tasks:
+1. Move each turtle object using positions
+   from "position_list"
+
+2. Write the player name using "nameboard"
+
+3. Increase the player's score by 10
+
+4. Write the updated score using "scoreboard"
+"""
+
+import turtle
+
+screen = turtle.Screen()
+
+player_list = [
+    {
+        "name": "Alicia",
+        "score": 0,
+        "arrow": turtle.Turtle(),
+        "target": turtle.Turtle(),
+        "nameboard": turtle.Turtle(),
+        "scoreboard": turtle.Turtle(),
+        "position_list": [
+            (100, 50),
+            (-150, 120),
+            (0, -100),
+            (200, 80)
+        ]
+    }
+]
+
+player = player_list[0]
+
+# move arrow turtle to first position
+
+# move target turtle to second position
+
+# move nameboard turtle to third position
+
+# move scoreboard turtle to fourth position
+
+# write player name using nameboard turtle
+
+# increase score by 10
+
+# write score using scoreboard turtle
+
+print(player["score"])
