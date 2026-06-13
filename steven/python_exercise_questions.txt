@@ -1,0 +1,74 @@
+1. Write a program that prints the word "Python" 10 times.
+
+2. Create a turtle and use a loop to move it forward 50 pixels, 8 times.
+
+3. Ask the user for a number. Print all numbers from 1 up to that number.
+
+4. Print all even numbers from 2 to 20.
+
+5. Print the multiplication table of 5 from:
+   5 × 1
+   up to
+   5 × 10
+
+6. Create an empty list called fruits.
+   Ask the user to enter 5 fruit names and store them in the list.
+
+7. Given the list below:
+
+   animals = ["cat", "dog", "bird", "fish"]
+
+   Use a loop to print every animal in the list.
+
+8. Given the list below:
+
+   scores = [80, 90, 75, 100, 85]
+
+   Use a loop to calculate and print the total score.
+
+9. Create a turtle and use a loop to draw a square.
+
+10. Ask the user to enter 10 numbers.
+    Store them in a list.
+    Then use a loop to print only the numbers greater than 50.
+
+11. Create a function called greet().
+    The function should print:
+    Hello World
+
+12. Create a function called welcome().
+    The function should print:
+    Welcome to Python
+    Call the function 3 times.
+
+13. Create a function called add(a, b).
+    The function should return the sum of the two numbers.
+    Ask the user for two numbers and print the result.
+
+14. Create a function called multiply(a, b).
+    The function should return the product of the two numbers.
+    Ask the user for two numbers and print the result.
+
+15. Create a function called is_even(number).
+    Return True if the number is even.
+    Return False otherwise.
+    Ask the user for a number and print the result.
+
+16. Create a text file called notes.txt.
+    Write the following lines into the file:
+    Apple
+    Banana
+    Orange
+
+17. Open notes.txt and print all of its contents.
+
+18. Open notes.txt.
+    Count how many lines are inside the file.
+    Print the total number of lines.
+
+19. Ask the user to enter 5 names.
+    Save all names into names.txt.
+    Each name should be written on a new line.
+
+20. Open names.txt.
+    Read the contents and print each line in uppercase. Function for changing to uppercase  is .upper()
